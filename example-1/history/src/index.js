@@ -26,7 +26,7 @@ function startHttpServer() {
 // Application entry point.
 //
 function main() {
-    console.log("Hello world!");
+    console.log("Hello Computer!");
     
     return startHttpServer();
 }
@@ -37,3 +37,6 @@ main()
         console.error("Microservice failed to start.");
         console.error(err && err.stack || err);
     });
+
+
+    abc
